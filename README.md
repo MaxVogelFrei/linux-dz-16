@@ -110,6 +110,6 @@ dns: 192.168.16.1
 ##### настройка клиента
 ```bash
 - name: Setup client
-  shell: "ipa-client-install -U --mkhomedir --force-ntpd --domain={{ domain }} --server={{ server }} --realm={{ realm }} --hostname={{ hostname }} -principal={{ principal }} --password={{ password }}"
+  shell: "ipa-client-install -U --mkhomedir --force-ntpd --domain={{ domain }} --server={{ server }} --realm={{ realm }} --hostname={{ hostname }} --principal={{ principal }} --password={{ password }}"
 ```
 
