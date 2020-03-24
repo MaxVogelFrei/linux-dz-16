@@ -1,0 +1,8 @@
+domain: netrunner.lan
+server: ipa.netrunner.lan
+realm: NETRUNNER.LAN
+hostname: client.netrunner.lan
+principal: admin
+password: AD123456
+dns: 192.168.16.1
+
