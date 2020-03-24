@@ -1,7 +1,7 @@
 - name: restart network
   become: yes
   service:
-    name: networking
+    name: network
     state: restarted
 
 
